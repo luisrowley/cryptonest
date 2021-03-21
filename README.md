@@ -54,6 +54,8 @@ $ npm run test:cov
 
 - [Nest](https://github.com/nestjs/nest) framework.
 - Typescript
+- [mongoDB](https://docs.mongodb.com/manual/tutorial/getting-started/)
+- [mongoose-seed](https://www.npmjs.com/package/mongoose-seed)
 
 ## Support
 

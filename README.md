@@ -7,7 +7,7 @@
 
 ## Description
 
-Simple backend for creating sample accounts simulating a cryptoasset exchange. 
+Simple backend for creating sample accounts simulating a cryptoasset exchange. It runs over a [mongoDB](https://docs.mongodb.com/manual/tutorial/getting-started/) non-relational database.
 
 New accounts can be seeded by using [mongoose-seed](https://www.npmjs.com/package/mongoose-seed) library and a simple seeding script.
 
@@ -15,6 +15,13 @@ New accounts can be seeded by using [mongoose-seed](https://www.npmjs.com/packag
 
 ```bash
 $ npm install
+```
+
+## Seeding sample data
+
+```bash
+# populating database
+$ npm run seed
 ```
 
 ## Running the app
@@ -50,13 +57,13 @@ $ npm run test:cov
 
 ## Support
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+Please feel free to send any PR to improve this simple backend. Big thanks to the Nest.js community [read more here](https://docs.nestjs.com/support).
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - [Luis De Benito](https://kamilmysliwiec.com)
+- Website - [https://droidemy.com](https://nestjs.com/)
+- Twitter - [@droidemy](https://twitter.com/droidemy)
 
 ## License
 
